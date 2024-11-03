@@ -1,0 +1,66 @@
+<!DOCTYPE html>  
+<html lang="zh-CN">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>照片展示网站</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 0;  
+            padding: 0;  
+            display: flex;  
+            flex-direction: column;  
+            align-items: center;  
+            justify-content: center;  
+            min-height: 100vh;  
+            background-color: #f0f0f0;  
+        }  
+  
+        header, footer {  
+            background-color: #4682B4;  
+            color: white;  
+            width: 100%;  
+            text-align: center;  
+            padding: 1em 0;  
+        }  
+  
+        .photo-gallery {  
+            display: flex;  
+            flex-wrap: wrap;  
+            gap: 16px;  
+            max-width: 800px;  
+            margin: 20px 0;  
+        }  
+  
+        .photo-gallery img {  
+            width: 100%;  
+            max-width: 300px;  
+            height: auto;  
+            border-radius: 8px;  
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+        }  
+    </style>  
+</head>  
+<body>  
+    <header>  
+        <h1>我的照片展示</h1>  
+		<h3>这里分享的是我的摄影作品</h3>
+		<p><a href="../firstweb.html">反回首页</a></p>
+    </header>  
+  
+    <div class="photo-gallery">  
+        <img src="1.jpg" alt="照片1">  
+        <img src="2.jpg" alt="照片2">  
+        <img src="3.jpg" alt="照片3">
+		<img src="4.jpg" alt="照片4">  
+		<img src="5.jpg" alt="照片5">  
+		<img src="6.jpg" alt="照片6">  
+    </div>  
+  
+    <footer>  
+        <p>&copy; 2023 我的照片展示网站. 版权所有.</p>  
+    </footer>  
+</body>  
+</html>
+
